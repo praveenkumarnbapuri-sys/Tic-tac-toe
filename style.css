@@ -1,0 +1,84 @@
+/* Selecting all the boxes and buttons from the DOM */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Selecting all the boxes and buttons from the DOM */
+body {
+    background-color: #2C2B3C;
+    text-align: center;
+}
+
+/* Styling the container that holds the game board */
+.container {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Styling the game board */
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5vmin;
+}
+
+/* Styling each individual box in the game board */
+.box {
+    height: 16vmin;
+    width: 16vmin;
+    color:#4C2B36;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem black;
+    margin: 0.2rem;
+    font-size: 6rem;
+    background-color: #E3E7D3;
+}
+h1 {
+    color: #DC0073;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+/* Styling the buttons for resetting and starting a new game */
+#reset-btn {
+    height: 2rem;
+    width: 6rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: #ff0084;
+    background-color: black;
+}
+#new-btn {
+    height: 2rem;
+    width: 6rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: #ff0084;
+    background-color: black;
+}
+/* Styling the message container that displays game messages */
+#msg {
+    color: #845168;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
