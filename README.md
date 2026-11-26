@@ -1,4 +1,4 @@
-[README (1).md](https://github.com/user-attachments/files/35467366/README.1.md)
+[README.md](https://github.com/user-attachments/files/35467366/README.1.md)
 # Tic Tac Toe Game
 
 A simple two-player Tic Tac Toe game built using **HTML, CSS, and JavaScript**.
